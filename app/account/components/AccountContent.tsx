@@ -43,10 +43,10 @@ const AccountContent = () => {
       {!subscription && (
         <div className="flex flex-col gap-y-4">
           <p>No active plan</p>{" "}
-          <button onClick={subscribeModal.onOpen} className="w-[300px] ">
+          <Button onClick={subscribeModal.onOpen} className="w-[300px] ">
             {" "}
             Subscribe
-          </button>
+          </Button>
         </div>
       )}
 
